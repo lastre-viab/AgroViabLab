@@ -1,0 +1,111 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+/source/data/maupertuis_data.h
+/source/data/maupertuis_unused.h
+/source/data/maupertuisEco_data.h
+/source/data/maupertuisEco_unused.h
+/source/data/optimProb1_data.h
+/source/data/optimProb1_unused.h
+/source/data/optimProb1D_data.h
+/source/data/test_capt_discret_data.h
+/source/data/test_capt_discret_unused.h
+/source/data/test_tycha_discret_data.h
+/source/data/test_tycha_discret_unused.h
+/source/data/testZermelo.h
+/source/data/testZermelo_bitSet.h
+/source/data/testZermelo_unused.h
+/source/data/userModel.h
+/source/data/ex1_EcoPolut_data.h
+/source/data/ex1_EcoPolut_unused.h
+/source/data/ex1Viabi5D_data.h
+/source/data/ex1Viabi5D_unused.h
+/source/data/ex2Viabi2D_data.h
+/source/data/ex2Viabi2D_unused.h
+/source/data/ex3bis_Viabi2D_data.h
+/source/data/ex3bis_Viabi2D_unused.h
+/source/data/ex3Dim_Viabi2D_data.h
+/source/data/ex3Dim_Viabi2D_unused.h
+/source/data/ex4_Viabi2D_data.h
+build/*
+OUTPUT/
+LOG/
+Doc/
+CMakeFiles/
+Default/
+.settings/
+.idea/
+/.project
+/.cproject
+/cmake_install.cmake
+/CMakeCache.txt
+/Makefile
+source/.idea/
+
+# Latex
+*minted*
+*fonts*
+*.aux
+*.lof
+*.log
+*.lot
+*.loa
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.bbl
+*.bbl-SAVE-ERROR
+*.bcf
+*.bcf-SAVE-ERROR
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.rubbercache
+
+# Mac
+**.DS_Store
+
+# Python
+
+**.ipynb_checkpoints
